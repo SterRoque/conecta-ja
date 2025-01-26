@@ -2,7 +2,7 @@ import { ButtonHTMLAttributes } from "react";
 import { tv } from "tailwind-variants";
 
 const button = tv({
-  base: "h-[40px] rounded-full px-8 font-semibold text-sm",
+  base: "h-[40px] w-fit rounded-full px-8 font-semibold text-sm",
   variants: {
     variant: {
       primary: "bg-pink-400 text-white ",
